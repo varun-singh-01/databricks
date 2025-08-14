@@ -1,0 +1,11 @@
+ingestion:
+  outputs:
+    dev:
+      catalog: ingestion
+      host: dbc-11223a4a-5b5f.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/7a1fa253a64f68f2
+      schema: raw
+      threads: 4
+      token: token
+      type: databricks
+  target: dev
