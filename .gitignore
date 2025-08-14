@@ -1,0 +1,4 @@
+.venv
+logs
+ingestion\target\
+ingestion\target\*
